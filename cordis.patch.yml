@@ -1,0 +1,5 @@
+# dsh-remote-agent bundle patch: publishes identity + launch token for a hub.
+- insert:
+    - id: remote-agent
+      name: dsh-remote-agent
+      config: {}
