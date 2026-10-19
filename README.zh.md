@@ -1,6 +1,8 @@
 # dsh-remote-agent
 
 > [English](README.md) | 中文
+>
+> 部署步骤见 [dsh-remote-hub/docs/DEPLOY.zh.md](https://github.com/yhuan416/dsh-remote-hub/blob/main/docs/DEPLOY.zh.md)。
 
 Agent 侧的 DSH 宿主插件，装在每一台需要被 Hub 访问的后端上。
 

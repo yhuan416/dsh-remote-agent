@@ -1,6 +1,8 @@
 # dsh-remote-agent
 
 > English | [中文](README.zh.md)
+>
+> Deployment guide (Chinese): [dsh-remote-hub/docs/DEPLOY.zh.md](https://github.com/yhuan416/dsh-remote-hub/blob/main/docs/DEPLOY.zh.md)
 
 Agent-side DSH host plugin, installed on every backend a hub should reach.
 
