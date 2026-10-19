@@ -28,5 +28,13 @@
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhuan416/dsh-remote-agent.git"
+  },
+  "homepage": "https://github.com/yhuan416/dsh-remote-agent#readme",
+  "bugs": {
+    "url": "https://github.com/yhuan416/dsh-remote-agent/issues"
   }
 }
