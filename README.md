@@ -1,5 +1,7 @@
 # dsh-remote-agent
 
+> English | [中文](README.zh.md)
+
 Agent-side DSH host plugin, installed on every backend a hub should reach.
 
 It publishes this process's launch token + identity to `$DSH_HOME/remote-agent.json`
