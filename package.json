@@ -1,20 +1,32 @@
 {
   "name": "dsh-remote-agent",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "Agent-side DSH host plugin: publishes this process's launch token and identity to $DSH_HOME/remote-agent.json so a hub can authenticate without manual token pasting.",
   "main": "lib/index.js",
   "exports": {
-    ".": "./lib/index.js"
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
   },
   "files": [
-    "lib/index.js",
+    "lib",
     "cordis.patch.yml",
-    "README.md"
+    "icon.svg",
+    "LICENSE",
+    "README.md",
+    "README.zh.md",
+    "ARCHITECTURE.md",
+    "COMPATIBILITY.md",
+    "CHANGELOG.md",
+    "TODO.md",
+    "scripts/install.sh",
+    "scripts/check.mjs"
   ],
   "engines": {
-    "node": ">=22.19.0"
+    "node": ">=22.19.0",
+    "dsh": ">=0.2.1-rc.2"
   },
   "license": "MIT",
   "keywords": [
@@ -25,6 +37,7 @@
     "ssh"
   ],
   "dsh": {
+    "manifestVersion": 1,
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
@@ -36,5 +49,9 @@
   "homepage": "https://github.com/yhuan416/dsh-remote-agent#readme",
   "bugs": {
     "url": "https://github.com/yhuan416/dsh-remote-agent/issues"
+  },
+  "icon": "./icon.svg",
+  "scripts": {
+    "check": "node scripts/check.mjs"
   }
 }
