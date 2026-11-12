@@ -15,4 +15,3 @@
 - Short-lived / rotating token support once dsh exposes a rotation hook.
 - Optional systemd unit example in `docs/`.
 - Locale dictionaries for the config form (currently English descriptions).
-- CI: `npm run check` on push.

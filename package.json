@@ -21,6 +21,7 @@
     "COMPATIBILITY.md",
     "CHANGELOG.md",
     "TODO.md",
+    "docs",
     "scripts/install.sh",
     "scripts/check.mjs"
   ],
